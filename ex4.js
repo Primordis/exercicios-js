@@ -8,7 +8,7 @@ let nota2 = parseInt(prompt("Digite a nota do segundo bimestre."))
 let nota3 = parseInt(prompt("Digite a nota do terceiro bimestre."))
 let nota4 = parseInt(prompt("Digite a nota do quarto bimestre."))
 
-let media = parseFloat = (nota1 + nota2 + nota3 + nota4) /2
+let media = parseFloat((nota1 + nota2 + nota3 + nota4)/4)
 
 if (media >= 7.0){
     console.log("Parabéns, você passou! Você tirou " + media)
