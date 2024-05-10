@@ -5,10 +5,6 @@
 
 let dia = parseInt(prompt("Digite um número de 1 a 7, representando os dias da semana. "))
 
-if(dia %7 == 0){
-    console.log("hamood hamooda hababy hamood hamoda hababy")
-}
-
 // if(dia == 1){
 //     console.log("Hoje é segunda-feira. Bom dia, usuário.")
 // }
