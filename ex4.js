@@ -3,10 +3,10 @@
 // notas e a mensagem de APROVADO para média superior ou igual a 7,0 RECUPERAÇÃO para
 // notas entre 5.0 e 7,0 ou a mensagem de REPROVADO para média inferior a 5,0.
 
-let nota1 = parseInt(prompt("Digite a nota do primeiro bimestre."))
-let nota2 = parseInt(prompt("Digite a nota do segundo bimestre."))
-let nota3 = parseInt(prompt("Digite a nota do terceiro bimestre."))
-let nota4 = parseInt(prompt("Digite a nota do quarto bimestre."))
+let nota1 = parseFloat(prompt("Digite a nota do primeiro bimestre."))
+let nota2 = parseFloat(prompt("Digite a nota do segundo bimestre."))
+let nota3 = parseFloat(prompt("Digite a nota do terceiro bimestre."))
+let nota4 = parseFloat(prompt("Digite a nota do quarto bimestre."))
 
 let media = parseFloat((nota1 + nota2 + nota3 + nota4)/4)
 
