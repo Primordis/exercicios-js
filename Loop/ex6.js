@@ -1,6 +1,6 @@
-let num = 0
+let num = -2
 
-while (num < 10){
+while (num < 20){
     num = num + 1
-    console.log(num)
+    if (num %2 == 0){console.log(num)}
 }
