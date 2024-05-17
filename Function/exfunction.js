@@ -57,41 +57,89 @@ function bye() {
     console.log("Você escolheu sair. Tenha um bom dia.")
 }
 
-let opcao = window.prompt("Menu\nDigite a opção desejada:\n\n1 - Conta de Ímpares\n2 - Tabuada\n3 - Fibonacci\n4 - Conta de Pares com While\n5 - Soma de Números Inteiros 1 a 100\n6 - Verificação de Valor\n7 - Sair")
+let opcao = "";
 
- while (opcao != "7") {
+while (opcao != "7") {
+
     opcao = window.prompt("Menu\nDigite a opção desejada:\n\n1 - Conta de Ímpares\n2 - Tabuada\n3 - Fibonacci\n4 - Conta de Pares com While\n5 - Soma de Números Inteiros 1 a 100\n6 - Verificação de Valor\n7 - Sair")
 
     switch (opcao) {
         case "1":
             exercicioCountimp()
             break
-    
-    
+
+
         case "2":
             exercicioTabuada()
             break
-    
+
         case "3":
             exercicioFibo()
             break
-    
+
         case "4":
             exercicioPar()
             break
-    
+
         case "5":
             exercicioBinomial()
             break
-    
+
         case "6":
             exercicioZero()
             break
-    
+
         case "7":
             bye()
             break
 
         default:
             break;
-}} 
+    }
+}
+
+// let opcao;
+
+// do {
+//     opcao = window.prompt("Menu\nDigite a opção desejada:\n\n1 - Conta de Ímpares\n2 - Tabuada\n3 - Fibonacci\n4 - Conta de Pares com While\n5 - Soma de Números Inteiros 1 a 100\n6 - Verificação de Valor\n7 - Sair")
+
+//     switch (opcao) {
+//         case "1":
+//             exercicioCountimp()
+//             break
+
+
+//         case "2":
+//             exercicioTabuada()
+//             break
+
+//         case "3":
+//             exercicioFibo()
+//             break
+
+//         case "4":
+//             exercicioPar()
+//             break
+
+//         case "5":
+//             exercicioBinomial()
+//             break
+
+//         case "6":
+//             exercicioZero()
+//             break
+
+//         case "7":
+//             bye()
+//             break
+
+//         case "sair":
+//             adios()
+//             toLowerCase()
+//             break
+
+//         default:
+//             break;
+//     }
+
+// } while (opcao != "7", "sair");
