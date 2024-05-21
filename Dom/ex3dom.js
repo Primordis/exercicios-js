@@ -1,13 +1,13 @@
 // fechar a página, voltar e mostrar sua localização.
 
-const voltarPagina = () => {
+function voltarPagina(){
     window.history.back()
 }
 
-const fecharPagina = () => {
+function fecharPagina(){
     window.close()
 }
 
-const rastrearCoords = () => {
-    navigator.geolocation.getCurrentPosition()
+function locatePagina(){
+    alert("Cê tá aqui ô 👽 " + window.location)
 }
